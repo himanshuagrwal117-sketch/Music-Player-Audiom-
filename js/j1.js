@@ -24,11 +24,11 @@ let liked_song_array=[];
 let info_about_panel=document.querySelector(".info-about-panel");
 
 // <=============================================all audio====================================>
-    let like_sound=new Audio("../songs/Notification/like.mp3");
-    let forw_back_sound=new Audio("../songs/Notification/forw-back.mp3"); 
-    let pause_sound=new Audio("../songs/Notification/pause.mp3"); 
-    let song_select_sound=new Audio("../songs/Notification/song-select.mp3"); 
-    let click_sound=new Audio("../songs/Notification/click.mp3");
+    let like_sound=new Audio("./songs/Notification/like.mp3");
+    let forw_back_sound=new Audio("./songs/Notification/forw-back.mp3"); 
+    let pause_sound=new Audio("./songs/Notification/pause.mp3"); 
+    let song_select_sound=new Audio("./songs/Notification/song-select.mp3"); 
+    let click_sound=new Audio("./songs/Notification/click.mp3");
 
 
 
