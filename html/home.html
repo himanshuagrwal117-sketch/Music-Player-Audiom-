@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home of Audiom</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/visualizer.css"> 
+    <link rel="stylesheet" href="../CSS/duration-slider.css"> 
+    <link rel="icon" type="image/x-icon" href="../images/skull.png">
+    <script src="https://kit.fontawesome.com/d9ac97d094.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <img src="../images/bg1.png" class="background-design">
+    
+    <!-- ----------------------------------song-panel ----------------------------------------------------------->
+    <div class="panel">
+        <div class="project-name">
+            <img src="../images/logo3.png" class="logo">
+             <i class="fa-solid fa-circle-user profile-icon" style="color:white"></i>
+             <p class="user-name">Himanshu</p>
+        </div>
+        <div class="extra-panel">
+            <button class="all-songs-panel-button">All Songs</button>
+            <button class="liked-panel-button"><i class="fa-regular fa-heart" style="color: #ffffff; "></i></button>
+            <div class="artist-button-div"><button class="artists-button">Select Artists<i class="fa-solid fa-sort-down" style="position: absolute; top:7px; right:26px;"></i></button></div>  
+        </div>
+        <div class="info-about-panel">All Songs</div>
+
+                   <!-- <=============================================== song template ================================> -->
+        <template id="song_template">
+                <div class="songs">
+                    <div class="serial_no"></div>
+                    <div class="song-image"><img src=" " class="song_image_src"></div>
+                    <div class="song_info_space">
+                        <div class="name_of_song"></div>
+                        <div class="name_of_artist"></div>
+                    </div>
+                    <div class="most-played"></div>
+                    <div class="liked"></div>
+                    <div class="duration"></div>
+                </div>
+        </template>
+        <div class="songs-panel"></div>
+
+               <!-- <=============================================== artist template ================================> -->
+
+        <template id="artist_template">
+                    <div class="artist">
+                        <div class="artist-name-in-panel"></div>
+                        <div class="artist-image-in-panel"><img src=" " class="song_image_src_artist"></div>
+                    </div>
+        </template>
+        <div class="artist-panel"></div>
+            
+    </div>
+    
+
+
+    <!-- <-----------------------------------------------player-----------------------------------------------------> 
+    
+    <div class="player">
+
+        <div class="song_cover"><img src="../images/spo.jpeg" class="song_image_src"></div>
+
+        <div class="song_name1">
+            <div class="song_name1_1">Music Player (Audiom)</div>
+            <div class="song_artist1_1">by Himanshu</div>
+            <div class="player-like"><i class="fa-regular fa-heart" style="color: #4a7d5a;"></i></div>
+            <div ><img src="../images/skull.png" class="logo_sp"></div>
+            
+        </div>
+        
+        <div class="song-controler1">
+            <div><i class="fa-solid fa-backward" style="color: #ffffff;" id="backward"></i></div>
+            <div class="pauseplay"><i class="fa-solid fa-play" style="color: #ffffff; font-size:37px;"></i></div>
+            <div><i class="fa-solid fa-forward" style="color: #ffffff;" id="forward"></i></div>
+        </div>
+
+        <div class="song-controler2">
+            <!-- <=============================================== duration slider ================================> -->
+            <input type="range" id="seek" min="0" max="100" value="0">
+
+            <div class="time_stamp">
+                <div class="start">00:00</div>
+                <div class="end">00:00</div>
+            </div>
+            
+        </div>  
+    </div>
+    <!-- <=============================================== player back deco ================================> -->
+    <div class="player-deco"></div>
+    <!-- <=============================================== notification for like ================================> -->
+    <div class="liked-notification">Added<i class="fa-solid fa-circle-check " style="color:#46ce6e; margin-left:10px;"></i></div>
+    <!-- <=============================================== visualizer ================================> -->
+    <canvas id="visualizer"></canvas>
+
+<script type="module" src="../js/j1.js"></script>
+
+
+    
+
+   
+
+    
+</body>
+</html>

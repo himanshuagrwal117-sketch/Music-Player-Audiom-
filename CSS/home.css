@@ -1,0 +1,433 @@
+
+
+body{
+    height:100%;
+    padding:0px;
+    margin:0px;
+    background-image: linear-gradient(to bottom, rgb(157,36,36), rgb(24,24,24));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.background-design{
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity:0.2;
+}
+
+/* <-----------------------------------------------song-panel----------------------------------------------------------> */
+.panel{
+    width:70%;
+    height:680px;
+    background-color:rgb(18, 18, 18);
+    right:30px;
+    top:40px;
+    position:absolute;
+    border-radius: 20px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:20px;
+   
+}
+.songs-panel{
+    width:100%;
+    height:95%;
+    overflow-y: scroll;
+    scrollbar-color: black;
+    justify-items: center;
+    border-radius: 8px;
+    scrollbar-width: thin;
+    scrollbar-color:rgb(56, 56, 56) transparent;
+}
+.songs{
+    width: 93%;
+    height:73px;
+    background-color: rgb(41, 41, 41);
+    margin-top: 8px;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scale:1;
+    transition: scale 1s ease 0s;
+    
+}
+
+.songs:hover{
+    cursor: pointer;
+    scale:1.03;
+
+}
+.serial_no{
+    width:4%;
+    height:30%;
+    color: rgb(165, 165, 165);
+    text-align: center;
+    font-size: 13px;
+    margin:6px;
+}
+.song-image{
+    width:6%;
+    height:80%;
+    margin:8px;
+    
+}
+.song_info_space{
+    width:66%;
+    height:100%;
+    margin-left: 8px;
+}
+.name_of_song{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin:7px 0px 3px 5px;
+}
+.name_of_artist{
+    color: rgb(191, 191, 191);
+    font-size: 12px;
+    font-weight: 500;
+    margin:7px 0px 3px 5px;
+}
+
+.info-about-panel{
+    width: 100%;
+    height:55px;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 30px;
+    color: rgb(225, 225, 225);
+    font-size: 30px;
+
+}
+.duration{
+    color:rgb(163, 163, 163);
+    height:100%;
+    width:4%;
+    font-size:13px;
+    text-align: center;
+    line-height: 70px;
+}
+.liked{
+    width:5%;
+    font-size:15px;
+    text-align: center;
+    line-height: 70px;
+}
+.most-played{
+    width:8%;
+    color:rgb(215, 215, 215);
+    font-size: 13px;
+    font-weight:200 ;
+}
+
+
+.all-songs-panel-button{
+    border: none;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 7px 15px 7px 15px;
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 5px;  
+}
+.liked-panel-button{
+    border: none;
+    background-image: linear-gradient(to right, rgb(93, 35, 93),rgb(146, 80, 150));
+    color: white;
+    padding: 7px 15px 7px 15px;
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 5px;
+    scale:1;
+
+}
+.liked-panel-button:hover{
+    box-shadow: 0 0 3px rgb(174, 53, 174);
+    cursor: pointer;
+    scale:1.02;
+    
+}
+.all-songs-panel-button:hover{
+   background-color:#46ce6e;
+    color: #212020;
+    cursor: pointer;
+    
+}
+
+.extra-panel{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 70px;
+    height:40px;  
+    margin-bottom: 6px; 
+    filter:none;
+}
+
+.profile-icon{
+    font-size: 45px;
+    position: absolute;
+    right:27px;
+    top:25px;
+}
+.user-name{
+    font-size: 15px;
+    position: absolute;
+    right: 89px;
+    top:25px;
+    color: rgb(240, 239, 239);
+    align-content: center;
+
+}
+
+/* <=====================================for artist button============================> */
+.artist-button-div{
+   height: 100%;
+   justify-content: end;
+   display: flex;
+   width: 78%;
+   position: relative;
+}
+.artists-button{
+    border: none;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 7px 15px 7px 15px;
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 5px;
+    width:17%;
+    text-align: start;
+}
+.artists-button:hover{
+    background-color: white;
+    color: #212020;
+    cursor: pointer;
+
+}
+.artist-panel{
+    height:300px;
+    width:36%;
+    z-index:20;
+    border-radius: 30px;
+    position: absolute;
+    top:114px;
+    right:36px;
+    overflow-y: auto;        
+    background-color: #212020;
+    
+    padding:12px 12px 5px 12px;     
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color:rgb(36, 35, 35) transparent;
+    display: none;
+}
+
+.artist{
+    background-color: #212020;
+    border-radius: 33px;
+    margin-bottom: 7px;
+    height:70px;
+    width:77%;
+    color: white;
+    position:relative;
+    text-align:left;
+    align-content: center;
+    padding-left: 80px;
+    justify-content: center;
+    transition: scale 0.2s linear;
+    border:0.7px solid #212020;
+}
+.artist:hover{
+    scale:1.02;
+    cursor: pointer;
+    background-color: #303030;
+    border:0.7px solid white;
+    
+}
+.song_image_src_artist{
+    width:15%;
+    height:77%;
+    position: absolute;
+    top:8px;
+    left:9px;
+    border-radius: 27px;
+    background-color: #00ff99;
+}
+
+/* <-----------------------------------------------------logo--------------------------------------------> */
+.project-name{
+    height:110px;
+    width:24%;
+    
+}
+.logo{
+    position: absolute;
+    left:434px;
+    top:0px;
+    height: 15%;
+    width:18%;
+}
+.liked-notification{
+    position: absolute;
+    opacity: 0;
+    width:30%;
+    height:60px;
+    bottom:30px;
+    left:500px;
+    border: 1px solid rgb(88, 88, 88);
+    background-color: #212020;
+    color: rgb(201, 199, 199);
+    border-radius: 7px;
+    align-content: center;
+    text-align: center;
+    display:none;
+    transition: opacity 1s ease;
+}
+
+/* <------------------------------------------------------player-------------------------------------------> */
+.player{
+    height:500px;
+    width:22%;
+    background-color:rgb(18, 18, 18);
+    border-radius: 20px;
+    top:40px;
+    left:30px;
+    position: absolute;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+.song_image_src{
+    width: 100%;
+    height:100%;
+    border-radius: 8px;
+}
+.song_cover{
+    width:98%;
+    height:280px;
+    border-radius: 55px;
+    margin: 7px 13px 13px 13px;  
+}
+.song_name1{
+    width:95%;
+    height:45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.song_name1_1{
+    font-size: 15px;
+    color: white;
+    
+}
+.song_artist1_1{
+    font-size: 11px;
+    color: rgb(218, 220, 220);
+}
+.song-controler1{
+    width:100%;
+    height:60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+}
+.song-controler1 i:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+.song-controler2{
+    width:100%;
+    height:60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.time_stamp{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top: 10px;
+    
+}
+.logo_sp{
+    height:50px;
+    width:50px;
+    position: absolute;
+    left:260px;
+    top:0px;
+}
+.player-like{
+    font-size: 26px;
+    position: absolute;
+    left:220px;
+    top:10px;
+}
+.player-like:hover{
+    cursor: pointer;
+}
+.start,.end{
+    color:rgb(225, 226, 228);
+    font-size: 13px;   
+}
+
+
+/* <==============================================player-bg-deco==================================================> */
+.player-deco{
+    content:'';
+    background-image:conic-gradient(from var(--angle),rgb(126, 35, 35));
+    position: absolute;
+    height: 540px;
+    width:360px;
+    z-index:-1;
+    top:35px;
+    left:24px;
+    border-radius: 20px;
+    animation :5s spin linear infinite;
+    scale:1;
+    filter:blur(10px);
+}
+@keyframes spin{
+    from{
+         --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

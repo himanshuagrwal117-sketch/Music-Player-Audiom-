@@ -1,0 +1,26 @@
+#seek {
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #00ff99 0%, #444 0%);
+}
+
+
+#seek::-webkit-slider-runnable-track {
+  height: 4px;
+  background: transparent;
+}
+
+
+#seek::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background: rgb(209, 213, 210);
+  border-radius: 50%;
+  
+  margin-top: -6px;
+}

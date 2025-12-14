@@ -1,0 +1,187 @@
+export const songs=[
+   {
+    s_name:"Different Sky",
+    s_artist:"Artist A",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAT-Rzg6batcf4Q8ouUd9IFvJXbHyBP_3rStUBGtQZCbjbatYu_RRwiyT08t0fc3opSTzsXbnQT3vU1Ga3N9RHYOIGO9JpxOBxa52Tc7GdlZGC336zaHnY3T4r0ukmNGJ3VHTqPTqJryHnwWvoKQO0hPI1UOzauC-iGckM7juHDywATBe2u4dk6QFMw9E/s2203/27.png",
+    bg_color:"linear-gradient(to  top left, rgb(157, 36, 36), rgba(53, 24, 24, 1))",
+    player_style:"conic-gradient(from var(--angle), rgba(212, 15, 15, 1), rgb(24, 24, 24))",
+    s_src:"../songs/1.mp3",
+    duration:"",
+    liked_flag:0,
+    a_img:"../images/sp2.png",
+    played:0,
+   },
+    {
+    s_name:"Nothing else",
+    s_artist:"Artist B",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaVxXblHPnZrq4TTcFYVhyphenhyphenosqqTQKAMzpyn94BtLgwH18kM68DskwTgdwck84U_KWOoPPMJup0A0YfQ40vg9PO6_C-iqtsfkIf-u5DthhUIkryyYrimjXUAd_48UCEYermLe8L1bH0WyJSlAiUhX_oiwuCnniccbtVFvwyia9AXrWJkVnqr9DX4So8NUM/s2203/16.png",
+   bg_color:"linear-gradient(to  top left, rgba(249, 184, 63, 1), rgba(177, 108, 4, 1))",
+    player_style:"conic-gradient(from var(--angle), rgba(244, 211, 23, 1), rgb(24, 24, 24))",
+    s_src:"../songs/2.mp3",
+    duration:"",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+
+   {
+    s_name:"Light Lamp",
+    s_artist:"Artist C",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB88KrtIrozsPOKr09evDNhS9uWhlO3IGqApEKbA-UoNCp4ymqHDyxHCL8OUqASkraJKjjFzM5Zgl7FPX5BiUDbMERMinvpp_jPJ_P1UWHiW8m5Kcbx6qW9flhiyHa0xsalWqykrDSuKe0X_R72sYNh8iEW82dw_yQUHXOt3v09yGtHHMlmLymsgPdTS8/s2203/17.png",
+    duration:"",
+    player_style:"conic-gradient(from var(--angle), rgba(32, 122, 225, 1), rgb(24, 24, 24))",
+    bg_color:"linear-gradient(to bottom, rgba(13, 56, 117, 1), rgb(24, 24, 24))",
+    s_src:"../songs/3.mp3",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:"Shoot in Paris",
+    s_artist:"Artist A",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJlHvH5dWqUwwKXMpi-pJt1DtAwk4o4PK1kPn05ucaY8q4qSjV1_kjHZHtZyAKMoSSbTeSOThEr48ZYzgT9lkgu-j-m4W_-RrjLyx7d-o-fU6Lw5-JPZ_cnvXVbMsxAr_77_R2N7bsedpZsQdAo1QjVZVlhq8f-oJK0x13dIyZZNX4gNwEgP4rZPI7DLY/s2203/18.png",
+    bg_color:"linear-gradient(to bottom, rgba(36, 139, 157, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(32, 193, 225, 1), rgb(24, 24, 24))",
+   s_src:"../songs/4.mp3",
+    duration:"",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:"In Mountains",
+    s_artist:"Artist A",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Frxacs_SzXeuoLKdh_2dyt2WjzU7dqqaPpVwZYH7GE98HE_oo4Pnvh0XBPH6JVLMQFVoYm4BpnqaXLgMCze9G-6R9yTSjQpNMczDwte23lC_u59Xt3jzLzw43AcKKnJ0w45E0uNCOSVB_Qt3WKGXOEkiQ-vv_HEI7z74Zl5JwkMJZwy5f3T1ejbwSG0/s2203/19.png",
+    duration:"",
+    s_src:"../songs/5.mp3",
+    bg_color:"linear-gradient(to bottom, rgba(198, 89, 7, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(249, 156, 18, 1), rgb(24, 24, 24))",
+     liked_flag:0,
+      a_img:"../images/sp2.png",
+      played:0,
+   },
+   {
+    s_name:"I am with you ",
+    s_artist:"Artist D",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMOlTIXWao1-ycC5ipmm-8le3tSNuFiFIQiNdG8LBPYKtQuHIRMSddgM0VsXQkv5UrqI13cp8_F97cpGS3FchbE4LYs3NIvTuJO2ovbhTNfgsWgNY2x__04-xX2xILvT0eZ0u1eHpw134rdg6W0pN-t3cIHCUKaDtBkyKwuYQcCY5Ihd53KfDpbTklizo/s2203/20.png",
+    s_src:"../songs/6.mp3",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(100, 51, 105, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(225, 32, 218, 1), rgb(24, 24, 24))",
+     liked_flag:0,
+      a_img:"../images/sp2.png",
+      played:0,
+   },
+   {
+    s_name:"My Goals",
+    s_artist:"Artist B",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGHXPPPSjSBs3-M-1r9crp_NvYWgf5EHPlgRkUsU9guYkhQO3uBUniPvgjWg2sfnhSnBdTeLaMwj_4Obpdblm2Bj-lFvAmxOX0_hJd_8zbF2-aKezpc6pc1gYBrj6oXPyyswiqzJsaELN2YjtPN3hgZfSPyQhovS62w-vWGgHPXTX29j2D2-EuD2LbygM/s2203/21.png",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(88, 6, 32, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(210, 42, 42, 1), rgb(24, 24, 24))",
+    s_src:"../songs/7.mp3",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:"Hack them",
+    s_artist:"Artist C",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV3bI7AwruPf8-vQ14ErZ1-wWtH7SD0QqPvSaY9R2bBn4arBbGj6MPMIR2FXCzEaj9MQ2Na021PznM7fKxAwZDyyVQo8T0xZQGn8WVCAyEnhnxiVfL8igpHBuONjCd5aDh48378L3z0JcjyWNwry6RB0zaphDSTpF7YElGq_6_6mVNKOG4RFfktGPEvzE/s2203/22.png",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(179, 45, 11, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(225, 32, 32, 1), rgb(24, 24, 24))",
+    s_src:"../songs/8.mp3",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:"Tree Sun Shine",
+    s_artist:"Artist C",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMvFyz1kLoDNX_8rzPibf1qxAqUFWcDx5i-wWbwfwaL6-WDK9Nx8D2w_3KWPxaOjKKjS8Ig4Alt0X40xTUgamofkX9XNl6OV1v_JP-FIkXM-ohvzBPmcLstITXpLSrFhk6FyA0nHPn7wU5HP40c2Kf4vEETGel7vNahtbf2pMV9XcjltseDwhrDkrUwCs/s2203/23.png",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(11, 159, 179, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(41, 201, 255, 1), rgb(24, 24, 24))",
+    s_src:"../songs/9.mp3",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:"Under The Sky",
+    s_artist:"Artist F",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZu8_J4nuA4JEwy_BTOTgoOfjNvAXQncSMWGNBGCsImZAZbbLC-iO4c_B1q7UASOs9kOGyiVl-kg-ZfHwGK2U_O9GQOM4N42ocC1uFk0aR7jjpr-7ETA8DnSNu8odGLYchTp5IDYOF4CMPAYcspoasClNF_oDAxF_WwD6rn-RsB5cxOwzqrZ9dfqOzVkQ/s2203/24.png",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(16, 131, 87, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(34, 241, 76, 1), rgb(24, 24, 24))",
+    s_src:"../songs/10.mp3",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:"Black",
+    s_artist:"Artist G",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI6Y85eIzf6tOntbQWohDridn4Q_MZSTxskrasgT6BvquaEPh12-zV0nF4d8_01k8js_3GZemhgNqmMro20-9YDlfEWiX7Qjl5lUAVi7CmVEGsUwUlzUUrnMPpAgKJqC7h14B6cPh_TC68zsj1ZpnRc-JVVpr9jtkFzkm2u1aZ06I5Rk23oZ4y2N8M_oI/s2203/25.png",
+    s_src:"../songs/11.mp3",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(60, 104, 223, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(0, 119, 255, 1), rgb(24, 24, 24))",
+     liked_flag:0,
+      a_img:"../images/sp2.png",
+      played:0,
+   },
+
+   {
+    s_name:"Aged Chair",
+    s_artist:"Artist F",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqK33VU6Zp6s7lhNMwz-ImoAGVEnyBBkXlgpsqrQk7wCo88G7TjHLymB6emLGjP1Ey8WpY5YtAPzlxiHBadgBgVZ0w8iTq6u-vPUrkwFKzswTFAXwHHkGcY3L6i-rsKzV4oIrsi6IdjhC2ooHZlSt9sSuTHaAzAvPnS2TlkUBIDnn4A5mvYRfLN6pAkTw/s2203/26.png",
+    s_src:"../songs/12.mp3",
+    duration:"",
+    bg_color:"linear-gradient(to bottom, rgba(69, 31, 64, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(157, 0, 255, 1), rgb(24, 24, 24))",
+     liked_flag:0,
+      a_img:"../images/sp2.png",
+      played:0,
+   },
+   {
+    s_name:"Love Found",
+    s_artist:"Artist B",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjLrLJjl78MUa-v9VMpi35cAEStvlFP9Mz2JkcuZfiTwo7ey6E7XRL-2t1EUYcfH9noVd6MlhEGOaFm_CuuWN-StOC4-CADRawAMR-3Tf1AMZ-vN9dOr-sEg1iriTi9mao0-5KtAPafbq94mfML1AKnCT5opf-AvuzFG8kloD8mxFXF9e8kA-oT5EQBQ4/s2203/28.png",
+    bg_color:"linear-gradient(to bottom, rgba(131, 16, 16, 1), rgb(24, 24, 24))",
+    s_src:"../songs/13.mp3",
+     player_style:"conic-gradient(from var(--angle), rgba(225, 32, 32, 1), rgb(24, 24, 24))",
+     liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+   },
+   {
+    s_name:" Beautiful Demons",
+    s_artist:"Artist G",
+    s_image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH1NRx-Ju6uih8rkYbL0uBl7_OKcgbzwqf37wnjSmRuJE61ZD_08fViBYtAjLevuPGUzVBmL5dSGCIC7w3uEmAZnsJT-NZd3LeGC9-ckG1MNe5YiRn-zmaGUMngnYcxy5KfrxRBJwxdK_n7G4S6aX3DwA1eFVwHWWboTdJ4D_IIzUVzSvgkiXXpxb3ORc/s2203/29.png",
+    bg_color:"linear-gradient(to bottom, rgba(152, 58, 139, 1), rgb(24, 24, 24))",
+     player_style:"conic-gradient(from var(--angle), rgba(255, 35, 237, 1), rgb(24, 24, 24))",
+    s_src:"../songs/14.mp3",
+    liked_flag:0,
+     a_img:"../images/sp2.png",
+     played:0,
+
+    }
+   
+];
+export let all_artist=[];
+function load_all_artist(){
+  for(let i=0;i<songs.length;i++){
+    let name=songs[i].s_artist;
+    let index=all_artist.indexOf(name);
+    console.log(index);
+    if(index===-1){
+      all_artist.push(name);
+    }
+  }
+}
+export let all_artist_photo=["../images/11.jpeg","../images/22.jpeg","../images/33.jpeg","../images/44.jpeg","../images/55.jpeg","../images/66.jpeg",];
+load_all_artist();
+
+
